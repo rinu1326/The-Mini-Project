@@ -339,7 +339,7 @@
         </div>
     
     </footer>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/n4EOjUhZjss?si=6
+    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/n4EOjUhZjss?si=6
     QtKNqbBbB3FPKyV" title="YouTube video player" frameborder="0" allow="accelerometer; 
     autoplay; clipboard-write; 
     encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -355,7 +355,7 @@
     QtKNqbBbB3FPKyV" title="YouTube video player" frameborder="0" allow="accelerometer; 
     autoplay; clipboard-write; 
     encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-     
+      -->
      <script>
         let menu =document.querySelector('#menu-icon');
     let navmenu =document.querySelector('.navmenu');
@@ -367,11 +367,13 @@
 
 
 
-    let loader = document.getElementById('preloader');
-window.addEventListener("load",function(){
-    loader.style.display="none"
+    window.addEventListener("load", function() {
+  const preloader = document.querySelector("#preloader");
 
-})
+  setTimeout(() => {
+    preloader.style.display="none"
+  }, 2000); 
+});
 
      </script>
         

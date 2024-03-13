@@ -376,7 +376,7 @@
         </div>
     
     </footer>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/n4EOjUhZjss?si=6
+    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/n4EOjUhZjss?si=6
     QtKNqbBbB3FPKyV" title="YouTube video player" frameborder="0" allow="accelerometer; 
     autoplay; clipboard-write; 
     encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -395,7 +395,7 @@
     <iframe width="560" height="315" src="https://www.youtube.com/embed/n4EOjUhZjss?si=6
     QtKNqbBbB3FPKyV" title="YouTube video player" frameborder="0" allow="accelerometer; 
     autoplay; clipboard-write; 
-    encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
         <script>
             
@@ -407,12 +407,13 @@
         navmenu.classList.toggle('open')
     }
 
+    window.addEventListener("load", function() {
+  const preloader = document.querySelector("#preloader");
 
-    let loader = document.getElementById('preloader');
-window.addEventListener("load",function(){
-    loader.style.display="none"
-})
-
+  setTimeout(() => {
+    preloader.style.display="none"
+  }, 2000); 
+});
         </script>
         <script>
              AOS.init();

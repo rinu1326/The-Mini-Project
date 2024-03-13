@@ -23,10 +23,18 @@ btn.onclick=function(){
 }
 
 
-let loader = document.getElementById('preloader');
-window.addEventListener("load",function(){
-    loader.style.display="none"
-})
+// let loader = document.getElementById('preloader');
+// window.addEventListener("load",function(){
+//     loader.style.display="none"
+// })
+
+window.addEventListener("load", function() {
+    const preloader = document.querySelector("#preloader");
+  
+    setTimeout(() => {
+      preloader.style.display="none"
+    }, 4000); 
+  });
 
 
   

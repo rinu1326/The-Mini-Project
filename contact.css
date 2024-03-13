@@ -262,3 +262,19 @@
       display: contents;
     }
   }
+
+
+
+  #preloader{
+    background: #000 url(./images/Loading_1.gif) no-repeat center center ;
+    height: 100vh;
+    background-size: 15%;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+  } 
+  @media (max-width: 600px) {
+    #preloader {
+      background-size: 40%; 
+    }
+  }
