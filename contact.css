@@ -273,6 +273,9 @@
     position: fixed;
     z-index: 9999;
   } 
+  
+
+
   @media (max-width: 600px) {
     #preloader {
       background-size: 40%; 
