@@ -21,7 +21,11 @@
 iframe{
   display: none;
 }
-
+@media (max-width: 600px) {
+  #preloader {
+    background-size: 10%; 
+  }
+}
 
 .center-text h2{
     color: #111;

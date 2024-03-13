@@ -18,7 +18,12 @@
 iframe{
   display: none;
 }  
-
+@media (max-width: 600px) {
+  #preloader {
+   
+    background-size: 40%; 
+  }
+}
 
 
 
