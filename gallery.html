@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="./gallery.css">
+
+</head>
+<body>
+    <header class="sticky">
+        <a href="#" class="logo"><img src="./images/logo (1).png" alt=""></a>
+        <ul class="navmenu">
+            <li><a href="index.html">home</a></li>
+            <li><a href="kids.html">kids</a></li>
+            <li><a href="mens.html">men</a></li>
+            <li><a href="women.html">women</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul>
+        <div class="nav-icon">
+            <a href="#"><i class='bx bx-search'></i></a>
+            <a href="login.html"><i class='bx bx-user'></i></a>
+            <a href="#"><i class='bx bx-cart'></i></a>
+
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+
+
+
+    <section class="container  sproduct my-5 pt-5">
+        <div class="row mt-5">
+            <div class="col-lg-5 col-md-12 col-12">
+                <img class="img-fluid w-100 pb-1 " src="./images/f1.jpg" id="mainimg" >
+                <div class="small-img-group">
+                    <div class="small-img-col">
+                        <img src="./images/f2.jpg" width="100%" class="small-img" onclick="myfun(this)" >
+                    </div>
+                    <div class="small-img-col">
+                        <img src="./images/f3.jpg" width="100%" class="small-img" onclick="myfun(this)" >
+                    </div>
+                    <div class="small-img-col">
+                        <img src="./images/f4.jpg" width="100%" class="small-img" onclick="myfun(this)" >
+                    </div>
+                    <div class="small-img-col">
+                        <img src="./images/f5.jpg" width="100%" class="small-img" onclick="myfun(this)">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-12">
+                <h6>home/t-shirt</h6>
+                <h3 class="py-4">men's fasion t-shirt</h3>
+                <h2>$120.00</h2>
+                <select class="my-3">
+                    <option>select size</option>
+                    <option>XL</option>
+                    <option>XXL</option>
+                    <option>Small</option>
+                    <option>Large</option>
+                </select>
+                <input type="number" value="1">
+              <a href="add cart.html"> <button class="buy-btn">Add To Cart</button ></a> 
+                <h4 class="mt-5 mb-5">product details</h4>
+                <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat iure hic voluptates doloremque illum! Min</span>
+            </div>
+           
+        </div>
+        
+
+    </section>
+
+
+    <!-- contact section -->
+    <footer class="contact">
+        <div class="contact-info">
+            <div class="first-info">
+                <img src="./images/logo (1).png" alt="">
+                <p>5465 newyork city <br>tx united states 647474</p>
+                <p>08564367896</p>
+                <p>david@gmail.com</p>
+    
+                <div class="social-icon">
+                    <a href=""><i class='bx bxl-facebook'></i></a>
+                    <a href=""><i class='bx bxl-twitter'></i></a>
+                    <a href=""><i class='bx bxl-instagram'></i></a>
+                    <a href=""><i class='bx bxl-youtube'  ></i></a>
+                    <a href=""><i class='bx bxl-linkedin' ></i></a>
+                </div>
+            </div>
+            <div class="second-info">
+                <h4>SUPPORT</h4>
+                <p>contact us</p>
+                <p>about page</p>
+                <p>size guide</p>
+                <p>shopping$ return</p>
+                <p>privacy</p>
+            </div>
+            <div class="third-info">
+                <h4>SHOP</h4>
+                <p>mens shop</p>
+                <p>womens shopping</p>
+                <p>discount</p>
+                <p>free product</p>
+            </div>
+            <div class="fourth-info">
+                <h4>COMPONY</h4>
+                <p>about</p>
+                <p>blog</p>
+                <p>affliate</p>
+                <p>login</p>
+            </div>
+            <div class="five">
+                <h4>SUBSCRIBE</h4>
+                <p>recive update, hot deals discount sent straitght in your bo</p>
+                <p>recive update, hot deals discount sent straitght in your bo</p>
+                <p>recive update, hot deals discount sent straitght in your box daily</p>
+                <br>
+                <a href="/" tabIndex="0"><img class="bn45" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/2560px-Google_Play_Store_badge_EN.svg.png" alt="bn45"/></a>
+    
+                <a href="/" tabIndex="0"><img class="bn46" src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"alt="bn45"/></a>
+    
+            </div>
+        </div>
+    
+    </footer>
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./script.js"></script>
+<script>
+    // let mainimg=document.getElementById('mainimg');
+    // let smallimg=document.getElementsByClassName('small-img');
+    // smallimg[0].onclick = ()=>{
+    //     mainimg.src =smallimg[0].src
+    // }
+    // smallimg[1].onclick = ()=>{
+    //     mainimg.src =smallimg[1].src
+    // }
+    // smallimg[2].onclick = ()=>{
+    //     mainimg.src =smallimg[2].src
+    // }
+    // smallimg[3].onclick = ()=>{
+    //     mainimg.src =smallimg[3].src
+    // }
+    // smallimg[4].onclick = ()=>{
+    //     mainimg.src =smallimg[4].src
+    // }
+ 
+
+
+</script>
+
+<script>
+    
+let menu =document.querySelector('#menu-icon');
+let navmenu =document.querySelector('.navmenu');
+
+menu.onclick = () =>{
+    menu.classList.toggle('bx-x')
+    navmenu.classList.toggle('open')
+}
+</script>
+</body>
+</html>
+    
+</body>
+</html>
