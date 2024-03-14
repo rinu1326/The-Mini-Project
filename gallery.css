@@ -32,8 +32,10 @@
           }
           .buy-btn{
               background: #fb77fb;
-              opacity: 1;
+              /* opacity: 1; */
               transition: 0.3s all;
+              padding: 10px 10px;
+              border-radius: 20px;
           }
           
   /* footer section */
