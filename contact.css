@@ -95,7 +95,7 @@
   }  
   
   
-  footer section 
+
   .bn46 {
     width: 150px;
     height: 50px;
@@ -105,7 +105,7 @@
     height: 50px;
   }
   .contact{
-    background-color: #f3f4f6;
+    background-color: #fff;
   }
   .contact-info{
     display: grid;
@@ -233,6 +233,9 @@
     position: fixed;
     top: 0;
     width: 100%;
+  }
+#menu-icon{
+    display: none;
   }
   
   /* nav res mediaquery */

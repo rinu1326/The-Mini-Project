@@ -7,8 +7,13 @@
     scroll-behavior: smooth;
     font-family: 'Jost', sans-serif;
     list-style: none;
+    
+    
+   
+    
      
 }
+
 
 #preloader{
   background: #000 url(./images/Loading_1.gif) no-repeat center center ;
@@ -224,7 +229,7 @@ footer style */
   height: 50px;
 }
 .contact{
-  background-color: #f3f4f6;
+  background-color: #fff;
 }
 .contact-info{
   display: grid;
