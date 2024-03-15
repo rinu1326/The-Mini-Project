@@ -31,11 +31,13 @@
               outline: none;
           }
           .buy-btn{
-              background: #fb77fb;
+              background: #ff523b;
               /* opacity: 1; */
-              transition: 0.3s all;
-              padding: 10px 10px;
-              border-radius: 20px;
+              transition: background 0.3s all;
+              padding: 8px 30px;
+              border-radius: 30px;
+              color: #fff;
+              margin: 30px 0px;
           }
           
   /* footer section */
