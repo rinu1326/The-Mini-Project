@@ -42,10 +42,5 @@ bigimg.src= smallllimg.src;
 }
 
 
-document.addEventListener('contextmenu',(event)=>{
-    event.preventDefault();
-
-})
-  
 
 
